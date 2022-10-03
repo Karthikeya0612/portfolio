@@ -1,0 +1,39 @@
+.title-text{
+    font-family: var(--merryweather);
+}
+
+.title-uppercase{
+    text-transform: uppercase;
+}
+
+.button{
+    padding: 0.8rem 2.2rem;
+    font-weight: bolder;
+    position: relative;
+    border: 2px solid grey;
+    border-radius: 4px;
+    margin: 0.9rem;
+
+}
+.button:hover{
+    background-color: var(--gradient-color);
+    background-image: var(--gradient-img);
+    border: transparent;
+    box-shadow: 3px 3px;
+    
+}
+
+p.para{
+    font-family: var(--merryweather);
+    text-align: justify;
+    font-size: 1.2rem; 
+    
+}
+
+.form-control:focus {
+    background-color: var(--gradient-color);
+    background-image: var(--gradient-img);
+    border: none;
+    box-shadow: 3px 3px;
+} 
+

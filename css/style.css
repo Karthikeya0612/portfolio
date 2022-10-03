@@ -1,0 +1,189 @@
+
+/* import fonts */
+@import url(./fonts.css);
+
+
+/* import variables */
+@import url(./partials/_variables.css);
+
+/* import global css */
+@import url(./partials/_global.css);
+
+/* start navigation */
+ .header_area .main_menu .navbar .navbar-brand{
+    padding: 0 2rem 0 4rem;
+
+ }
+
+ .header_area .main_menu .nav-item .nav-link{
+    font-family: var(--merryweather);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+ }
+
+
+/* end navigation */
+
+
+/* start banner area */
+.site-main .site-banner .site-title h3{
+   padding-top: 35%;
+   font-weight: 500;
+}
+
+
+
+.site-main .site-banner .site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background-color: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+
+.site-main .site-banner .banner-image>img{
+    padding: 4rem 0;
+    width: 90rem;
+}
+
+/* end banner area */
+
+/* start about area */
+.site-main .about-area{
+    padding: 7rem 0rem;
+    
+}
+
+.site-main .about-area{
+    display: block;
+    font-family: var(--merryweather);
+    font-weight: 500;
+}
+
+/* end about area */
+
+/* start services area */
+
+.card-body>h5{
+    font-family: var(--merryweather);
+    font-weight: 500;
+    /* display: block; */
+
+}
+
+
+.site-main .services-area{
+    padding: 7rem 2rem;
+}
+.site-main .services-area .services-title{
+    padding: 0rem 14rem;
+}
+ .hover-cards:hover{
+    /* background-color: black; */
+    box-shadow: var(--box-shadow);
+ }
+
+
+/* end services area */
+
+
+/* start project area */
+
+.project-area{
+    /* padding: 4rem 0; */
+    font-family: var(--merryweather);
+}
+
+.button-group>button{
+    background: transparent;
+    border: none;
+    font-family: var(--merryweather);
+    font-weight: 500;
+    padding: 1.5rem;
+    text-transform: uppercase;
+}
+
+.our-project>.img>a>img{
+    border: 2px solid black;
+    
+}
+
+.our-project{
+    display: block;
+    margin: auto;
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px gray); 
+    
+}
+
+.site-main .project-area .grid .col-sm-12 .our-project{
+    margin: auto;
+    text-align: center;
+}
+
+/* end project area */
+
+
+/* start subscribe me */
+
+.site-main .subscribe-us-area .subscribe{
+    margin: 5rem auto;
+    background: url(../img/subscribe.jpeg) no-repeat;
+    filter: brightness(0.9);
+    padding: 10rem 0;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title h4{
+    font-weight: 900;
+    font-family: var(--merryweather);
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input{
+    width: 30rem;
+    padding: 0.8rem 2.2rem;
+    margin: 0.9rem;
+    font-weight: bolder;
+    border: 2px solid grey;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input:focus{
+    border: none;
+}
+
+
+/* end subscribe me */
+
+
+/* start footer area */
+
+footer.footer-area{
+    font-family: var(--merryweather);
+    background-color: gray;
+}
+.footer-area .site-logo>a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+footer.footer-area .social a>i{
+    color: black;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+footer.footer-area .social a>i:hover{
+    color: gray;
+    background-color: black;
+    border-radius: 50%;
+}
+
+/* end footer area */
