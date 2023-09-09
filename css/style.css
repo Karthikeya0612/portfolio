@@ -80,7 +80,7 @@ html,body{
 
 /* end about area */
 
-/* start services area */
+/* start skills area */
 
 .card-body>h5{
     font-family: var(--merryweather);
@@ -90,10 +90,10 @@ html,body{
 }
 
 
-.site-main .services-area{
+.site-main .skills-area{
     padding: 7rem 2rem;
 }
-.site-main .services-area .services-title{
+.site-main .skills-area .skills-title{
     padding: 0rem 14rem;
 }
  .hover-cards:hover{
@@ -102,7 +102,7 @@ html,body{
  }
 
 
-/* end services area */
+/* end skills area */
 
 
 /* start project area */
@@ -244,6 +244,9 @@ p.para{
     border: none;
     box-shadow: 3px 3px;
 } 
+.about-me-para{
+    margin-right: 10%;
+}
 
 
 
