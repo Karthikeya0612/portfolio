@@ -247,6 +247,15 @@ p.para{
 .about-me-para{
     margin-right: 10%;
 }
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.small-icon {
+    width: 2%; /* Set the desired width */
+    height: 2%; /* Set the desired height */
+}
 
 
 
